@@ -7,6 +7,7 @@
     <style>
         body{
             background-color: rgb(134, 134, 218);
+            margin: auto;
         }
 
         pre {
@@ -20,13 +21,25 @@
             text-align: center;
             color: white
         }
-         
-        picture {
-            text-align:center;
+
+        .foto {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
+         
+        
         footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
             text-align: start;
         }
+
+      
+
     </style>
 </head>
 <body>
@@ -38,12 +51,16 @@
         de viver momentos inesquecíveis.</strong>
         
     </pre>
+
+    <div class="foto">
  
     <picture>
         <source media="(max-width: 750px)" srcset="imagem/pequena.png" type="image/png">
         <source media="(max-width: 1050px)" srcset="imagem/media.png" type="image/png">
         <img src="imagem/grande01.png" alt="Imagem pequena">
     </picture>
+</div>
+
     <footer>
        <strong>David & Aline</strong> 
     </footer>
